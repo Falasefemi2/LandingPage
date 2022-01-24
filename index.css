@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.topbar {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(10, 3, 71);
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.topbar-wrapper {
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+form input[type=search] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    width: 500px;
+    background: rgb(69, 59, 156);
+    color: #fff;
+    padding-left: 30px;
+}
+
+.topleft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topright {
+    display: flex;
+    align-items: center;
+}
+
+.topAvatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.topbarIcons {
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    height: calc(100vh - 50px);
+    position: sticky;
+    top: 50px;
+}
+
+.sidebarwrapper {
+    padding: 20px;
+}
+
+.sidebarmenu {
+    margin-bottom: 10px;
+}
+
+.sidebarlistitem {
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.sidebarlistitem:hover {
+    background-color: rgb(10, 3, 71);
+    color: blue;
+}
+
+.sidebarlistbottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.others {
+    flex: 4;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+}
+
+.map-area {
+    height: calc(80vh - 40px);
+}
+
+
+.user-icon img {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.online {
+    position: relative;
+}
+
+.online::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #41db51;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.btn {
+    background: #41db51;
+    border-radius: 20px; 
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.button {
+    background-color: #fff;
+    border: 1px solid #555;
+    color: blue;
+    padding: 5px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+

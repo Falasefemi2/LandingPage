@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="index.css">
+    <title>Landing Page</title>
+</head>
+
+<body class="bg-light">
+    <div class="topbar">
+        <div class="topbar-wrapper">
+            <div class="topleft">
+                <span class="logo"><i class="fas fa-paper-plane"></i>LOGO</span>
+                <form class="px-3 my-4"><span><i class="fas fa-search position-absolute p-4 mb-4"></i></span>
+                    <input type="search" placeholder="Enter search criteria" class="mx-3">
+                </form>
+            </div>
+            <div class="topright">
+                <div class="topbarIcons">
+                    <i class="fas fa-plus-circle"></i>
+                    <i class="fas fa-bell"></i>
+                </div>
+                <span class="px-3">Deren Fletcher</span><img src="img/member-2.png" alt="" class="topAvatar">
+            </div>
+        </div>
+    </div>
+    <!-- sidebar -->
+    <div class="container-fluid d-flex ">
+        <div class="sidebar bg-white">
+            <div class="sidebarwrapper">
+                <div class="sidebarmenu">
+                    <ul class="sidebarlist">
+                        <li class="sidebarlistitem pb-3">
+                            <span><i class="fab fa-deploydog"></i></span>
+                            Deployment
+                        </li>
+                        <li class="sidebarlistitem pb-3">
+                            <span><i class="fas fa-calendar-alt"></i></span>
+                            Events
+                        </li>
+                        <li class="sidebarlistitem pb-3">
+                            <span><i class="fas fa-exclamation-triangle"></i></span>
+                            Sensors
+                        </li>
+                        <li class="sidebarlistitem pb-3">
+                            <span><i class="fas fa-chess-king"></i></span>
+                            Gateways
+                        </li>
+                    </ul>
+                    <ul class="sidebarlistbottom">
+                        <li class="sidebarlistitem pb-3">
+                            <span><i class="fas fa-cog"></i></span>
+                            Admin
+                        </li>
+                        <li class="sidebarlistitem pb-3">
+                            <span><i class="fas fa-question-circle"></i></span>
+                            Support
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="others">
+            <div class="card">
+                <div class="card-body">
+                    <div class="text d-flex align-items-center">
+                        <p class="lead text-muted">Deployment</p>
+                        <select name="filters" id="filters" class="ms-auto bg-light">
+                            <option value="car">Filter Present</option>
+                            <option value="car">Present</option>
+                            <option value="car">Filters Present</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="card">
+                            <div class="card-body d-flex align-items-center justify-content-between">
+                                <div class="col-4 d-flex">
+                                    <div class="user-icon online">
+                                        <img src="img/member-2.png" alt="">
+                                    </div>
+                                    <div class="info d-flex flex-column px-4">
+                                        <small class="text-muted fw-bold">SensorName</small>
+                                        <p class="lead text-info mb-2 fw-bold">AseetName</p>
+                                        <small>11/24/2021 12:26AM</small>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <small class="text-muted">
+                                        Asset Type
+                                    </small>
+                                    <p>Well</p>
+                                    <p class="mb-0">Owner</p>
+                                    <p class="lead fw-bold">George Jones</p>
+                                </div>
+                                <div class="col-4 d-flex">
+                                    <div class="col-8">
+                                        <p class="lead mb-0">Site</p>
+                                        <p class="fw-bold mb-0">Beacons & Gatars Well Pad</p>
+                                        <p class="lead mb-0">Location</p>
+                                        <p class="fw-bold">Carthage (Haythesville Shade), Texas</p>
+                                    </div>
+                                    <div class="col-4 position-relative">
+                                        <button class="btn">Production</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h4 class="h5">Details</h4>
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <h6 class="text-muted">GPS</h6>
+                                                    <p class="text-muted">39.054445</p>
+                                                </div>
+                                                <div class="col-4">
+                                                    <h6 class="text-muted">Gateways</h6>
+                                                    <p class="text-muted">AssetTag13</p>
+                                                </div>
+                                                <div class="col-4">
+                                                    <h6 class="text-muted">Removal date</h6>
+                                                    <p class="text-muted lead">Active</p>
+                                                </div>
+                                                <h5 class="h6 text-muted">Description</h5>
+                                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dicta quaerat eligendi beatae accusamus odit numquam tempore, animi aperiam eos. Similique nostrum quas porro maxime deserunt dolores, reiciendis dignissimos magni?</p>
+                                                <h3 class="text-muted">Configuration</h3>
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <small class="text-muted">Monitoring Type</small>
+                                                        <h5 class="text-muted">2 - Dumped Volve</h5>
+                                                        <small class="text-muted">Level Contoller</small>
+                                                        <p class="text-muted fw-bold">Snap</p>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <small class="text-muted">Seprator Orientation</small>
+                                                        <h5 class="text-muted">Horizontal</h5>
+                                                        <small class="text-muted">Water Exist</small>
+                                                        <p class="text-muted fw-bold">No</p>
+                                                    </div>
+                                                </div>
+                                                <p class="lead text-muted fw-bold">Photos</p>
+                                                <div class="images">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <div class="square bg-light"></div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="square bg-light"></div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="square bg-light"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <h4 class="h5">Events</h4>
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <p class="mb-0">11/24/2021</p>
+                                                    <p>12:36AM</p>
+                                                </div>
+                                                <div class="col-4">
+                                                    <i class="fas fa-edit"></i>
+                                                </div>
+                                                <div class="col-4">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                          </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <p class="mb-0">11/24/2021</p>
+                                                    <p>12:36AM</p>
+                                                </div>
+                                                <div class="col-4">
+                                                    <i class="fas fa-edit"></i>
+                                                </div>
+                                                <div class="col-4">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                          </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <p class="mb-0">11/24/2021</p>
+                                                    <p>12:36AM</p>
+                                                </div>
+                                                <div class="col-4">
+                                                    <i class="fas fa-edit"></i>
+                                                </div>
+                                                <div class="col-4">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                          </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="notes">
+                                                <p class="lead fw-bold text-muted">Notes</p>
+                                                <div class="note-item d-flex align-items-center">
+                                                    <i class="fas fa-user-clock px-2"></i>
+                                                    <p class="text-muted mb-0"><span class="fw-bold">Phill Underhill</span> 11/24/2021 @ 12:36AM</p>
+                                                </div>
+                                                <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis totam delectus in sint quisquam quaerat, quidem dolor debitis? Aspernatur autem facilis doloribus tempore! Laudantium, perferendis saepe voluptatum adipisci ad dolorem!</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <button class="ms-auto button">EDIT DEPLOYMENT</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-4 d-flex">
+                                            <div class="user-icon online">
+                                                <img src="img/member-2.png" alt="">
+                                            </div>
+                                            <div class="info d-flex flex-column px-4">
+                                                <small class="text-muted fw-bold">SensorName</small>
+                                                <p class="lead text-info mb-2 fw-bold">AseetName</p>
+                                                <small>11/24/2021 12:26AM</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <small class="text-muted">
+                                                Asset Type
+                                            </small>
+                                            <p>Well</p>
+                                            <p class="mb-0">Owner</p>
+                                            <p class="lead fw-bold">George Jones</p>
+                                        </div>
+                                        <div class="col-4 d-flex">
+                                            <div class="col-8">
+                                                <p class="lead mb-0">Site</p>
+                                                <p class="fw-bold mb-0">Beacons & Gatars Well Pad</p>
+                                                <p class="lead mb-0">Location</p>
+                                                <p class="fw-bold">Carthage (Haythesville Shade), Texas</p>
+                                            </div>
+                                            <div class="col-4 position-relative">
+                                                <button class="btn">Production</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-4 d-flex">
+                                            <div class="user-icon online">
+                                                <img src="img/member-2.png" alt="">
+                                            </div>
+                                            <div class="info d-flex flex-column px-4">
+                                                <small class="text-muted fw-bold">SensorName</small>
+                                                <p class="lead text-info mb-2 fw-bold">AseetName</p>
+                                                <small>11/24/2021 12:26AM</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <small class="text-muted">
+                                                Asset Type
+                                            </small>
+                                            <p>Well</p>
+                                            <p class="mb-0">Owner</p>
+                                            <p class="lead fw-bold">George Jones</p>
+                                        </div>
+                                        <div class="col-4 d-flex">
+                                            <div class="col-8">
+                                                <p class="lead mb-0">Site</p>
+                                                <p class="fw-bold mb-0">Beacons & Gatars Well Pad</p>
+                                                <p class="lead mb-0">Location</p>
+                                                <p class="fw-bold">Carthage (Haythesville Shade), Texas</p>
+                                            </div>
+                                            <div class="col-4 position-relative">
+                                                <button class="btn">Production</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-4 d-flex">
+                                            <div class="user-icon online">
+                                                <img src="img/member-2.png" alt="">
+                                            </div>
+                                            <div class="info d-flex flex-column px-4">
+                                                <small class="text-muted fw-bold">SensorName</small>
+                                                <p class="lead text-info mb-2 fw-bold">AseetName</p>
+                                                <small>11/24/2021 12:26AM</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <small class="text-muted">
+                                                Asset Type
+                                            </small>
+                                            <p>Well</p>
+                                            <p class="mb-0">Owner</p>
+                                            <p class="lead fw-bold">George Jones</p>
+                                        </div>
+                                        <div class="col-4 d-flex">
+                                            <div class="col-8">
+                                                <p class="lead mb-0">Site</p>
+                                                <p class="fw-bold mb-0">Beacons & Gatars Well Pad</p>
+                                                <p class="lead mb-0">Location</p>
+                                                <p class="fw-bold">Carthage (Haythesville Shade), Texas</p>
+                                            </div>
+                                            <div class="col-4 position-relative">
+                                                <button class="btn">Production</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-4 bg-warning map-area">
+                            <h1 class="h1 text-center">Map Area</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
